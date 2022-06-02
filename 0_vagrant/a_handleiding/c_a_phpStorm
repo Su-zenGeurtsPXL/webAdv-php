@@ -1,0 +1,35 @@
+--------------------------------------------------
+Server configureren
+--------------------------------------------------
+1. Voeg een nieuwe server toe (naam: vagrant_sftp)
+        a. Tools > Deployment > Configuration
+        b. Druk op "+"
+        c. Kies type "sftp"
+3. Configureer de server => zie screenshots in /assets
+        a. Tools > Deployment > Configuration
+        b. Voeg een ssh-connectie toe (figuur a)
+        c. Configureer de connectie van de server (figuur b)
+        d. Configureer de mapping van de server (figuur c)
+4. Zorg ervoor dat bestanden ook verwijderd worden van de server
+        a. Tools > Deployment > Options
+        b. Zie screenshot in /assets (figuur d)
+
+--------------------------------------------------
+Gegevens uploaden naar de server
+--------------------------------------------------
+~ Optie 1: Bestand slepen ~
+1. Tools > Deployment > Browse Remote Host
+2. Sleep gewenste bestanden naar var/www/html
+
+~ Optie 2: Rechtstreeks vanaf project ~
+1. RMK op een bestand
+2. Deployment > Upload to [serverName]
+
+~ Na beide opties ~
+3. Open http://192.168.33.22/hello.php
+
+--------------------------------------------------
+Gegevens afhalen van de server
+--------------------------------------------------
+1. Tools > Deployment > Download from [serverName]
+

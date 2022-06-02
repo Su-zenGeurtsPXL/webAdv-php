@@ -1,0 +1,22 @@
+----------------------------------------------- -----------------------------------------------
+Java                                            PHP
+----------------------------------------------- -----------------------------------------------
+class Naam { ... }                              class Naam { ... }
+class Naam extends Superclass                   class Naam extends Superclass { ... }
+class Naam implements SomeInterface             class Naam implements SomeInterface
+----------------------------------------------- -----------------------------------------------
+public Naam( ... ) { ... }                      public function __construct( ... ) { ... }
+public String toString() { ... }                public function __toString() { ... }
+-                                               public function __destruct( ... ) { ... }
+----------------------------------------------- -----------------------------------------------
+method overloading                              -
+this.                                           $this->
+Naam.                                           self::
+                                                Naam::
+----------------------------------------------- -----------------------------------------------
+super.                                          parent::
+super( ... )                                    parent::__construct( ... )
+----------------------------------------------- -----------------------------------------------
+public static Naam make( ... ) {                public static function make( ... ) {
+    return new Naam ( ... );                        return new self( ... );
+}                                               }

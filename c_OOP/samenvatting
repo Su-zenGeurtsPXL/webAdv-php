@@ -1,0 +1,43 @@
+-----------------------------------------------
+Magic methods
+-----------------------------------------------
+- Beginnen met 2 uncderscorse (__)
+- Voorbeelden: constructor en toString
+
+-----------------------------------------------
+Instance
+-----------------------------------------------
+- Instance variable:    "$this->"
+- Instance method:      "$object->"
+
+-----------------------------------------------
+Static
+-----------------------------------------------
+- Static variable:      "self::"
+- Static method:        "ClassName::"
+
+-----------------------------------------------
+Abstract
+-----------------------------------------------
+- Parent class:         "parent::"
+
+-----------------------------------------------
+Namespaces
+-----------------------------------------------
+~ Java packages
+
+- Naming collisions vermijden
+- Unieke identificatie van klassen / interfaces
+
+!!! Namespaces komen overeen met mappenstructuur
+!!! Binnen app.php geen namespaces gedefinieerd, default-namespace (\)
+!!! Gebruik verkorte notaties
+
+-----------------------------------------------
+Autoloading
+-----------------------------------------------
+- Voor elke niet gekende klasse wordt de funtie class AutoLoader aangeroepen
+
+Dependencies (bv Monolog) downloaden van repository
+Maakt ook autoloader voor afgehaalde code (en eigen
+code).

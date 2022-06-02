@@ -1,0 +1,3 @@
+voorbeelden_les$ php -S localhost:8080
+		1. Kijk naar: /etc/php/7.2/php.ini
+		2. Bij de PDO moeten drivers staan => indien niet het geval, moet je het php.ini-file aanpassen

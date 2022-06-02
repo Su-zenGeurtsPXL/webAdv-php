@@ -1,0 +1,8 @@
+count($a)               geef het aantal waarden in de rij $a
+array_keys($a)          geef een rij met alle keys van $a
+array_keys($a, val)     geef een rij met de keys die overeenkomen met de waarde val (zoekfunctie)
+array_values($a)        geef een rij met alle values van $a
+sort($a)                sorteer de rij $a
+shuffle($a)             schud de rij $a
+min($a)                 minimum van de rij $a
+max($a)                 maximum van de rij $a

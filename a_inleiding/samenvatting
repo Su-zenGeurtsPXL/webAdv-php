@@ -1,0 +1,28 @@
+-----------------------------------------------
+Variabelen
+-----------------------------------------------
+    - MET $
+    - datatype wordt bepaald door context
+
+-----------------------------------------------
+Array
+-----------------------------------------------
+    - array bevat key, value pairs
+            => key int of string
+            => value elk datatype
+    - aangemaakt via array ( arguments )
+            => argument:    key => value
+                            OF
+                            value (eerst vrije int key wordt genomen)
+
+
+-----------------------------------------------
+Functions
+-----------------------------------------------
+    - Elke naam v. function mag 1 keer gebruikt worden.
+    Dus niet: definitie van som met 2 waarden, som met 3 waarden, ...
+    Oplossing 1 (default waarde)
+
+-----------------------------------------------
+XXXXXXXX
+-----------------------------------------------

@@ -1,0 +1,46 @@
+Symphony downloaden: symfony.com/download => .exe openen
+	=> binaries, executable
+	=> Composer nodig om dit te doen
+
+
+
+$ symfony new voorbeeld_les --full --version=5.4 //new: maakt nieuw bestand aan
+
+
+$ php bin/console make:controller
+controller => routing
+views => presentatie
+twig-files => presentation engine
+
+$ symphony server start
+
+
+
+
+--------------------------------------------------
+Server
+--------------------------------------------------
+Virtual box met Vagrant
+
+
+
+
+--------------------------------------------------
+Uitproberen
+--------------------------------------------------
+1. server opstarten
+2. code uitvoeren om producten aan te maken
+3. voorbeeld 1 uitvoeren
+
+
+
+
+
+Je kan kiezen of er wel of niet onderlinge relaties zijn
+
+
+
+volgende keer:
+validatie toepassen
+formulieren aanmaken
+security inbouwen => laten genereren => voor bepaalde url, bepaalde priveleges

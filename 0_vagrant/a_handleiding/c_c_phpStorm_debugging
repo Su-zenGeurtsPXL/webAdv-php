@@ -1,0 +1,8 @@
+--------------------------------------------------
+Installatie
+--------------------------------------------------
+1. Installeer Chrome Xdebug helper
+2. Klik op "Start Listening for PHP Debug Connections"
+    => zie screenshot (figuur g)
+3. Plaats breakpoints
+3. Klik op "Debug '[web app]'" om te debuggen => zie screenshot (figuur h)

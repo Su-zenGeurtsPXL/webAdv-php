@@ -1,0 +1,40 @@
+-----------------------------------------------
+Errors
+-----------------------------------------------
+- Op verschillende niveaus gedefinieerd => https://www.php.net/manual/en/errorfunc.constants.php
+- Afhankelijk van het niveau van de error wordt de verdere executie van het PHP-script al dan niet gestaakt.
+
+- errors onderdrukken met @
+
+- functie
+
+-----------------------------------------------
+Functies
+-----------------------------------------------
+- fopen => https://www.php.net/manual/en/function.fopen.php
+- trigger_error => https://www.php.net/manual/en/function.trigger-error.php
+- set_error_handler => https://www.php.net/manual/en/function.set-error-handler.php
+
+Voorbeeld van de error:
+fopen               PHP Warning:  Undefined variable $ikBestaNiet in C:\Users\suzen\PhpstormProjects\webAdvPHP\d_exceptions\d_error_reporting\app.php on line 3
+trigger_error       PHP Fatal error:  ikbestaniet.txt not correct in C:\Users\suzen\PhpstormProjects\webAdvPHP\d_exceptions\f_trigger_error\src\Util\File.php on line 12
+set_error_handler   ikbestaniet.txt not correct
+
+-----------------------------------------------
+php.ini
+-----------------------------------------------
+- Een configuratiebestand
+- Er wordt geconfigueerd welke errors getoond moeten worden.
+
+- error_reporting: php.ini overschrijven
+
+-----------------------------------------------
+/etc/php/7.0/cli/php.ini
+-----------------------------------------------
+...
+; E_ALL & ~E_NOTICE & ~E_STRICT (Show all errors, except for notices and coding standards warnings.)
+...
+error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT-
+
+
+

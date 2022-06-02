@@ -1,0 +1,17 @@
+-------------------------------------------------
+Virtual box
+-------------------------------------------------
+https://www.virtualbox.org/
+- versie 6.0.24
+
+-------------------------------------------------
+Vagrant
+-------------------------------------------------
+https://www.vagrantup.com/
+
+-------------------------------------------------
+Map "vagrant" aanmaken
+-------------------------------------------------
+- vagrant/Vagrantfile => zie blackboard
+- vagrant/bootstrap.sh => zie blackboard
+- vagrant/.vagrant => wordt aangemaakt bij het installeren van de server

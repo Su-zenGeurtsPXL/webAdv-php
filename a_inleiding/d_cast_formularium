@@ -1,0 +1,27 @@
+(boolean) 0             = false
+(boolean) 0.0           = false
+(boolean) ""            = false
+(boolean) "0"           = false
+(boolean) Null          = false
+
+(boolean) alle rest     = true
+
+(int) true              = 1
+(int) false             = 0
+(int) 12.33             = 12
+(int) "12.22 aa"        = 12
+(int) "aa 12.222"       = 0
+(int) Null              = 0
+
+(float) true            = 1.0
+(float) false           = 0.0
+(float) 12              = 12.0
+(float) "12.22 aaaa"    = 12.22
+(float) "aaa 12.222"    = 0.0
+(float) Null            = 0.0
+
+(string) true           = "1"
+(string) false          = ""
+(string) 12             = "12"
+(string) 12.222         = "12.222"
+(string) Null           = ""

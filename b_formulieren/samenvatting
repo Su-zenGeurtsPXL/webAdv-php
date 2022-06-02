@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------------------
+ONDERWERP       URL-ingave          URL-verwerking
+-------------------------------------------------------------------------------------------
+Get             /ingave.html        /verwerking.php?naam=Tim&tshirt=m
+Post            /ingave.html        /verwerking.php
+Array             /ingave.html      /verwerking.php?vriend%5B%5D=Tim&vriend%5B%5D=Stephanie

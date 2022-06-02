@@ -1,0 +1,19 @@
+-------------------------------------------------
+PHP Interpeter gebruiken
+-------------------------------------------------
+COMMAND LINE
+$ php test.php
+
+BUILT-IN SERVER
+$ php -S localhost:8080
+
+    ERROR       [Fri May 27 17:57:00 2022] Failed to listen on localhost:8080
+                (reason: An attempt was made to access a socket in
+                a way forbidden by its access permissions)
+
+    REASON      Poort 8080 is al reeds bezet
+
+    SOLUTION    Andere poort kiezen in commando
+
+INTEGRATIE MET PHPSTORM
+Link: https://www.jetbrains.com/help/phpstorm/php-built-in-web-server.html#configuring-built-in-web-server

@@ -1,0 +1,33 @@
+-----------------------------------------------
+Arithmetic
+-----------------------------------------------
++ of - of * met float IS float
+    1 + “a” = 1
+    1 + “12.22 a” = 13.22
+    “a” + “b” = 0
+
+/ IS altijd float
+    1 / 2 = 0.5
+    “aaa” / 2 = 0.0
+
+% IS altijd int
+    5 % 2 = 1
+    “a” % 2 = 0
+
+-----------------------------------------------
+concatenation
+-----------------------------------------------
+concatenatie IS altijd string
+    “a” . “b” = “ab”
+    true . “a” = “1a”
+
+-----------------------------------------------
+Comparison
+-----------------------------------------------
+==      gelijk in waarde
+===     gelijk in waarde en van hetzelde datatype
+!=      verschillend in waarde
+!==     verschillend in waarde of datatype
+<       kleiner dan
+>       groter dan
+<=      kleiner dan of gelijk aan

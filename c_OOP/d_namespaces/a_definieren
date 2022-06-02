@@ -1,0 +1,25 @@
+-----------------------------------------------
+Mappenstructuur
+-----------------------------------------------
+src
+    Model
+        Entities
+            User.php
+        Repository.php
+    autoload.php
+app.php
+
+-----------------------------------------------
+src/Model/Entities/User.php
+-----------------------------------------------
+<?php namespace Model\Entities;
+
+class User {...}
+
+-----------------------------------------------
+app.php
+-----------------------------------------------
+<?php
+require_once 'src/Model/Entities/User.php';
+$user = new Model\Entities\User();
+...

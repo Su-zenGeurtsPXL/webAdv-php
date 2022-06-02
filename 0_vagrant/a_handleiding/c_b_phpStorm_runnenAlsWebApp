@@ -1,0 +1,16 @@
+--------------------------------------------------
+Web Applicatie configureren
+--------------------------------------------------
+1. File > Setting
+2. PHP > Servers
+3. Voeg server toe => zie screenshot in /assets (figuur e)
+4. Doe de Run configuratie
+        a. Run > Edit Configurations
+        b. Druk op "+"
+        c. Kies voor "PHP Web Page"
+        d. Zie screenshot in /assets (figuur f)
+
+--------------------------------------------------
+Web Applicatie runnen
+--------------------------------------------------
+1. Run > Run [web app]

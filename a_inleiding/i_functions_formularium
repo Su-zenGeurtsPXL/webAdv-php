@@ -1,0 +1,26 @@
+-----------------------------------------------
+String functies
+-----------------------------------------------
+strlen( $s )            lengte van de string $s
+strpos ( $s, $z )       eerste positie van een zoekstring $z in de string $s, false als $z niet gevonden wordt
+substr( $s, $i )        substring van de string $s, beginnende vanaf positie $i
+strtolower ( $s )       geeft de string $s omgezet naar kleine letters terug
+strtoupper ( $s )       geef de string $s omgezet naar hoofdletters
+trim( $s )              geef de string $s zonder spaties voor en achteraan
+
+-----------------------------------------------
+Functies voor variabelen
+-----------------------------------------------
+define(“PI”, 3.1415 )   definieer een constante
+unset ( $a )            verwijder de variabele $a
+isset( $a )             bestaat de variabele $a?
+is_bool( $a )           is de variabele $a een boolean?
+is_double( $a )         double?
+is_string( $a )         string?
+get_type( $a )          geef het type van het variabele $a
+
+-----------------------------------------------
+require_once
+-----------------------------------------------
+plaats de inhoud van een bestand op deze locatie niet gevonden --> foutmelding
+_once --> het plaatsen v.h. bestand wordt maar 1 keer gedaan

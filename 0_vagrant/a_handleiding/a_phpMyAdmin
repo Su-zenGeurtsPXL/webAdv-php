@@ -1,0 +1,17 @@
+--------------------------------------------------
+phpMyadmin
+--------------------------------------------------
+= om de MySQL-databank te beheren
+
+--------------------------------------------------
+phpMyAdmin openen
+--------------------------------------------------
+1. Server installeren (in de map vagrant)
+        $ vagrant up
+2. Open phpmyadmin in browser (url: http://192.168.33.22/phpmyadmin)
+        => ip-adres staat in vagrant/Vagrantfile
+3. Inloggen op phpMyAdmin
+        Username: root
+        Password: root
+4. Database aanmaken via tablad "Databases" of "SQL"
+

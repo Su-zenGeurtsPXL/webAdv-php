@@ -1,0 +1,19 @@
+-------------------------------------------------
+PHP Storm
+-------------------------------------------------
+https://www.jetbrains.com/phpstorm/download/#section=windows
+
+Stappen:
+	1. Inloggen bij jetbrains met schoolaccount
+	2. PHP Storm downloaden
+
+-------------------------------------------------
+PHP Interpeter
+-------------------------------------------------
+https://windows.php.net/download/
+        => PHP 8.1 > VS16 x64 Thread Safe > zip-bestand
+
+Stappen:
+	1. Mapje aanmaken: ..\webAdvanced\php 8.1.4
+	2. Zip-bestand uitpakken in het aangemaakte mapje
+	3. Toevoegen aan de PATH-variabele op je systeem => handleiding: https://www.computerhope.com/issues/ch000549.htm

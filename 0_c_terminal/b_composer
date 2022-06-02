@@ -1,0 +1,11 @@
+-------------------------------------------------
+Versie checken
+-------------------------------------------------
+$ composer -V
+
+-------------------------------------------------
+Autoloading (https://getcomposer.org/doc/01-basic-usage.md#autoloading)
+-------------------------------------------------
+$ composer dump-autoload -o OF $ composer install
+
+RMK in PHPSTORM op composer.json > Composer > install
