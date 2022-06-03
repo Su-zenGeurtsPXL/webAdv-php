@@ -9,7 +9,7 @@
 - [ ]  PHPUnit
 
 ### Overig
-- [ ] Bootstrap
+- [ ] Bootstrap => Module 3: Demo: Adding a Responsive Layout to the Detail Page
 - [x] Vagrant
 
 ### TO DO
