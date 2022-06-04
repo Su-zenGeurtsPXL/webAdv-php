@@ -9,7 +9,10 @@
 - [ ]  PHPUnit
 
 ### Overig
-- [ ] Bootstrap => Module 3: Demo: Adding a Responsive Layout to the Detail Page
+- [x] Bootstrap
+  - [x] Modle 01: Course Overview	
+  - [x] Module 02: Getting Started with Bootstrap 5	
+  - [x] Module 3: Creating a Page Layout with the Bootstrap Grid System
 - [x] Vagrant
 
 ### TO DO
