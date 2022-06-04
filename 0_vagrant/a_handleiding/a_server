@@ -1,0 +1,17 @@
+--------------------------------------------------
+Stappen
+--------------------------------------------------
+1. Server opstarten
+
+
+--------------------------------------------------
+Server opstarten !!! in de map vagrant !!!
+--------------------------------------------------
+$ cd C:\Users\suzen\OneDrive - PXL\2tind\webAdvanced\les5_vagrant\vagrant
+$ vagrant up
+
+-------------------------------------------------
+Server afsluiten !!! in de map vagrant !!!
+-------------------------------------------------
+$ cd "C:/Users/suzen/OneDrive - PXL/2tind/webAdvanced/les5_vagrant/vagrant"
+$ vagrant halt

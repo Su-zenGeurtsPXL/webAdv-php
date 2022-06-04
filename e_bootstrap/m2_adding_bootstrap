@@ -1,0 +1,76 @@
+-------------------------------------------------
+Viewport meta tag
+-------------------------------------------------
+- Make sure that the site renders correctly on all types of devices
+
+~ index.html ~
+    <head>
+        ...
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        ...
+    </head>
+
+-------------------------------------------------
+Adding Bootstrap via the CDN
+-------------------------------------------------
+- Use the minified file, CSS only => bootstrap.min.css\
+
+~ index.html ~
+    <head>
+        ...
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        ...
+    </head>
+
+-------------------------------------------------
+Background using plain CSS
+-------------------------------------------------
+- Create /css/custom.css for the styling of the BODY
+- Link the css-file in the html-file
+
+~ index.html ~
+    <head>
+        ...
+        <link rel="stylesheet" href="css/custom.css">
+        ...
+    </head>
+
+~ css/custom.css ~
+    body {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background-image: url('../images/pattern.png');
+        background-repeat: repeat;
+      }
+
+
+-------------------------------------------------
+Roles
+-------------------------------------------------
+Not all tags are supported by every browser => main-tag is only recent
+
+Solution: Add a role "main" to the main-tag
+<main role="main">
+    ...
+</main>
+
+-------------------------------------------------
+Classes
+-------------------------------------------------
+Use classes for styling
+
+TAG     CLASS                               DESCRIPTION
+----------------------------------------------------------------------------------------------
+div     class="m-4"                         Make margin 4px
+div     class="p-4"                         Make padding 4px
+div     class="fw-bolder"                   Make font-weight bolder
+div     class="fw-normal fst-italic"        Make font-weight normal and font-style italic
+img     class="rounded"                     Make border rounded
+div     class="alert alert-success mt-3"    Make div stand out as an alert
+a       class="btn btn-success"             Give the layout of a succes button
+a       class="btn btn-info"                Give the layout of an info button
+
+-------------------------------------------------
+Templates
+-------------------------------------------------
+https://getbootstrap.com/docs/5.2/examples/

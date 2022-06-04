@@ -16,11 +16,6 @@ SSH connectie maken
 $ scp [file] vagrant@192.168.33.22:/var/www/html
     // file beschikbaar op http://192.168.33.22/[file]
 
--------------------------------------------------
-Server afsluiten
--------------------------------------------------
-$ vagrant halt
-
 
 
 

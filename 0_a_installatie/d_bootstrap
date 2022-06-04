@@ -1,0 +1,13 @@
+-------------------------------------------------
+Bootstrap
+-------------------------------------------------
+https://getbootstrap.com/
+- Version: 5.0.1 or newer
+
+-------------------------------------------------
+Methods
+-------------------------------------------------
+1. CDN (Content Delivery Network)       Static files: CSS => Browser download files from that location
+2. Packet manager                       Like npm, yarn, ...
+3. Download                             Download compiled CSS and JS and local files on own server
+4. Compile                              Download source files => Starting from the SAS files

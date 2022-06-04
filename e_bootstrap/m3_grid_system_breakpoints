@@ -1,0 +1,23 @@
+-------------------------------------------------
+Bootstrap Grid Concepts
+-------------------------------------------------
+
+CONCEPT         DESCRIPTION
+-------------------------------------------------------------------------------------------
+Container       Initiates the grid system, contains content
+Rows            Contains elements with classes => puts elements in a column within a role
+Breakpoints     Determines layout based of the pagewidths => RESPONSIVE]
+
+
+-------------------------------------------------
+Breakpoints: 6 known values
+-------------------------------------------------
+
+NAME                    PREFIX      WIDTH
+----------------------------------------------
+Extra small             none        < 576px
+Small                   sm          >= 576px
+Medium                  md          >= 768px
+Large                   lg          >= 992px
+Extra large             xl          >= 1200px
+Extra extra large       xxl         >= 1400px
