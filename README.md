@@ -10,8 +10,8 @@
 
 ### Overig
 - [x] Bootstrap
-  - [x] Modle 01: Course Overview	
-  - [x] Module 02: Getting Started with Bootstrap 5	
+  - [x] Module 1: Course Overview	
+  - [x] Module 2: Getting Started with Bootstrap 5	
   - [x] Module 3: Creating a Page Layout with the Bootstrap Grid System
 - [x] Vagrant
 
